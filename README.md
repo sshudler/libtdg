@@ -71,6 +71,5 @@ critical path computation is quite slow, so it makes sense to exclude the critic
 cases.
 
 ## TODOs
-* Add support for explicit tasks (`pragma omp task` and `pragma omp taskwait`)
 * Add support for static scheduling (`pragma omp for schedule(static)`)
 * Make the critical path computation more efficient
